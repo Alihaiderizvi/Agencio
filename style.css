@@ -81,6 +81,18 @@ li {
     border-top: 3px solid var(--primary-color);
 }
 
+.ser_card {
+    padding: 1rem;
+    transform: translateY(0);
+    transition: .3s ease-in-out;
+}
+
+.ser_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2) !important;
+    cursor: pointer;
+}
+
 
 /* Services */
 
