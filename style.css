@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+:root {
+    --primary-color: #0d2481;
+    --secondary-color: #1E2329;
+    --gray-color: #55595D;
+    --body-font: 'Noto Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    font-family: var(--body-font);
+}
+
+li {
+    cursor: pointer;
+}
+
+
+/* Navbar */
+
+.logo {
+    background-color: var(--secondary-color);
+    height: 4rem;
+    width: 250px;
+}
+
+.logo_text>h6 {
+    letter-spacing: 5px;
+}
+
+.logo_text>span {
+    FONT-WEIGHT: 400;
+    color: var(--gray-color) !important;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+
+.logo>img {
+    height: 37px;
+    border-right: 1px solid var(--gray-color);
+}
+
+.sideItemDiv {
+    background-color: var(--primary-color);
+}
+
+.nav-link {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 200;
+    font-family: var(--body-font);
+}
+
+
+/* Show case */
+
+.image {
+    background-image: url('Assets/Images/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.case_btn {
+    background-color: var(--primary-color);
+}
+
+.case {
+    opacity: 0.8;
+    border-top: 3px solid var(--primary-color);
+}
+
+
+/* Services */
+
+.services {
+    background-color: var(--primary-color);
+}
+
+.box_heading:before {
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+    flex-shrink: 0;
+}
+
+
+/* Reach out */
+
+.reach_out {
+    background-color: var(--primary-color);
+}
+
+.reach_btn {
+    background-color: #173198;
+}
