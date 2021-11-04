@@ -32,7 +32,6 @@ li {
 .logo {
     background-color: var(--secondary-color);
     height: 4rem;
-    width: 250px;
 }
 
 .logo_text>h6 {
