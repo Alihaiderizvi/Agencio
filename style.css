@@ -136,6 +136,10 @@ li {
     }
     .logos {
         margin: 20px 0;
+        width: 50%;
+    }
+    .logos>img {
+        width: 80% !important;
     }
     .work_row {
         padding: 0px 20px;
