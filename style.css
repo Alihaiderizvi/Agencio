@@ -121,3 +121,37 @@ li {
 .reach_btn {
     background-color: #173198;
 }
+
+
+/* Media Query */
+
+@media ( max-width: 425px) {
+    .case_wrap {
+        margin: 0 10px;
+    }
+    .case {
+        padding: 25px !important;
+    }
+    .logos {
+        margin: 20px 0;
+    }
+    .work_row {
+        padding: 0px 20px;
+    }
+    .work_img {
+        margin-top: 30px;
+    }
+    .showCase_card {
+        margin-bottom: 50px;
+    }
+    .showCase_righttDiv {
+        padding: 0 50px;
+        text-align: center;
+    }
+    .showCase_righttDiv>hr {
+        margin-top: 11px;
+    }
+    .ser_card {
+        padding: 5px 0;
+    }
+}
